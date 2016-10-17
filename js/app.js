@@ -3,10 +3,10 @@
     app.config(['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) => {
         $urlRouterProvider.otherwise('/')
         $stateProvider.state('app', {
-            url: '',
-            abstract: true,
-            template: '<ui-view></ui-view>'
+            url: '/',
+            template: '<h1>Hello world</h1>'
         })
     }])
-
-})(angular.module('app.config'))
+})(angular.module('app', [
+    'ui.router'
+]))
