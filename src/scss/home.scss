@@ -1,30 +1,83 @@
-body {
+.home {
     background-image: url("/firstpage/background.jpeg");
     background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 #ouiExpatLogo {
     padding-top: 80px;
     width: 80%;
-}
-
-#btnCnx {
-    padding-top: 100px;
-}
-
-#btnCuc {
-    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 #btn {
-  width: 300px;
-  font-size: 200%;
-  border-radius: 0px;
-  border: none;
-  background-color: #00B8AA;
+    width: 300px;
+    font-size: 200%;
+    border-radius: 0;
+    border: none;
+    background-color: #00B8AA;
 }
 
 #img {
-  width: 110px;
-  padding-top: 90px;
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+.connect {
+    background-color: #00B8AA;
+    opacity: 0.7;
+}
+
+.create {
+    background-color: #00B8AA;
+    opacity: 0.7;
+}
+
+#connectPseudo {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#connectMdp {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#createPseudo {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#createMail {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#createMdp {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#createMdpConf {
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+#jetemmerdebootstrap {
+  padding: 5px;
+}
+
+#sixdumatrpzlafatigue {
+  margin-top: 0%;
+}
+
+#containerOfTheFuckingButtonsFuckYeah {
+  position: absolute;
+}
+
+#putainDiconesDeMerde {
+  position: absolute;
+  bottom: 0;
 }
