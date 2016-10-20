@@ -40,8 +40,8 @@ exports.config = {
     },
     plugins: {
         copycat: {
-            "js": ['node_modules/angular/angular.min.js', 'node_modules/angular-ui-router/release/angular-ui-router.min.js'],
-            verbose: true,
+
+              verbose: true,
             onlyChanged: true
         },
         babel: {

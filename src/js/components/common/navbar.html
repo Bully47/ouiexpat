@@ -1,0 +1,11 @@
+<section>
+    <div id="mySidenav" ng-class="{'sidenav': $ctrl.isOpen}" ng-if="$ctrl.isOpen">
+        <a href="javascript:void(0)" class="closebtn" ng-click="$ctrl.closeNav()">&times;</a>
+        <center><img src="/img/ouiexpat_logo_export-logocouleur.png" alt="ouiExpat" id="ouiExpatLogo" width="30%" /></center>
+        <a href="#">Mon voyage</a>
+        <a href="#">Ma checklist</a>
+        <a href="#">Pays d'acceuil</a>
+        <a href="#">Ma situation</a>
+    </div>
+    <span style="font-size:50px;cursor:pointer;float:left;margin-top:30px;margin-left:30px;color:#00B8AA;" ng-if="!$ctrl.isOpen" ng-click="$ctrl.openNav()">&#9776;</span>
+</section>
