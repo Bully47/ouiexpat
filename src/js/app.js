@@ -5,5 +5,7 @@
     'app.views',
     'app.config',
     'app.services',
-    'app.home'
+    'app.home',
+    'app.common',
+    'app.user'
 ]))
