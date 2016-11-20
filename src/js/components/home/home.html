@@ -5,15 +5,15 @@
             <img src="/firstpage/ouiExpatLogo.png" alt="ouiExpat" id="ouiExpatLogo" />
         </div>
 
-        <div class="container col-md-12" id="containerOfTheFuckingButtonsFuckYeah">
+        <div class="container col-md-12" id="containerofbuttons">
             <div class="row col-md-3">
                 <div ng-if="!$ctrl.displayConnect">
-                    <div class="col-md-12" id="jetemmerdebootstrap">
+                    <div class="col-md-12" id="bootstrap">
                         <button type="button" class="btn btn-primary btn-lg" id="btn" ng-click="$ctrl.displayConnect = true">Connexion</button>
                     </div>
                 </div>
                 <div class="connect col-md-12" ng-if="$ctrl.displayConnect">
-                    <button type="button" class="btn btn-warning btn-xs" ng-click="$ctrl.displayConnect = false" id="sixdumatrpzlafatigue">X</button>
+                    <button type="button" class="btn btn-warning btn-xs" ng-click="$ctrl.displayConnect = false" id="close">X</button>
                     <div class="form-group">
                         <div class="inputGroupContainer col-md-12">
                             <div class="input-group col-md-12" id="connectPseudo">
@@ -28,12 +28,12 @@
             </div>
             <div class="row col-md-offset-6 col-md-3">
                 <div ng-if="!$ctrl.displayCreate">
-                    <div class="col-md-12" id="jetemmerdebootstrap">
+                    <div class="col-md-12" id="bootstrap">
                         <button type="button" class="btn btn-primary btn-lg" id="btn" ng-click="$ctrl.displayCreate = true">Créer un compte</button>
                     </div>
                 </div>
                 <div class="create col-md-12" ng-if="$ctrl.displayCreate">
-                    <button type="button" class="btn btn-warning btn-xs" ng-click="$ctrl.displayCreate = false" id="sixdumatrpzlafatigue">X</button>
+                    <button type="button" class="btn btn-warning btn-xs" ng-click="$ctrl.displayCreate = false" id="close">X</button>
                     <div class="form-group">
                         <div class="inputGroupContainer col-md-12">
                             <div class="input-group col-md-12" id="createPseudo">
@@ -56,7 +56,7 @@
 
     </div>
 
-    <div class="container col-md-12" id="putainDiconesDeMerde">
+    <div class="container col-md-12" id="icones">
         <div class="row col-md-offset-4">
             <img class="col-md-2 col-md-offset-1" src="/firstpage/fbicon.png" alt="fbicon" id="img" />
             <img class="col-md-offset-1 col-md-2" src="/firstpage/twicon.png" alt="twicon" id="img" />
