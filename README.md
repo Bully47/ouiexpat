@@ -1,3 +1,5 @@
+(Projet réalisé dans le cadre d'un HACKATON de 24H)
+
 # ANGULAR 1.5 SAMPLE
 
 ### Prerequisites
